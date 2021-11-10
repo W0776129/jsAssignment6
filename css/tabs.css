@@ -1,0 +1,43 @@
+.tab-list{
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 10;
+    background-color:  #C06C84;
+}
+
+.tab-list li{
+    display: inline-block;
+    width: 200px;
+
+}
+
+.tab-list li a{
+    display: block;
+    padding: 5%;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    
+}
+.tab-list li a:hover{
+    background-color: #CCCCFF;
+}
+.tab-list li.active a{
+    color: #fff;
+   
+}
+
+
+.tab-panel {
+    display: none;
+    background-color:  #6C5B7B ;
+    padding: 16px;
+    margin-top: -1px;
+    position: relative;
+    z-index: 1;
+}
+.tab-panel.active {
+    display: block;
+}
